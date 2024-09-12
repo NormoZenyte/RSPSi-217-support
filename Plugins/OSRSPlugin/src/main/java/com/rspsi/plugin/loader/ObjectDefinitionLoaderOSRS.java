@@ -263,7 +263,7 @@ public class ObjectDefinitionLoaderOSRS extends ObjectDefinitionLoader {
 		}
 		return definition;
 	}
-
+//
 	@Override
 	public ObjectDefinition forId(int id) {
 		return cache.get(id);
